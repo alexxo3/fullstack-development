@@ -1,6 +1,10 @@
 /*
 Challenge:
-Select the img tag and set the width 
+Select the img tag and set the width
 of the Google logo to be 300px.
 */
+
+img {
+    width: 300px;
+}
 

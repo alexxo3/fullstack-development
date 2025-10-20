@@ -14,3 +14,6 @@ h1 {
 Challenge:
 Try to achieve the shadow from the provided design.
 */
+h1 {
+    text-shadow: 2px 2px 4px #000000;
+}

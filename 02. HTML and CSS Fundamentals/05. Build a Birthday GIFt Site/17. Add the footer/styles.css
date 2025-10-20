@@ -82,14 +82,25 @@ h1, h2, h3, h4, p {
     background-image: url("images/cheers.gif");
 }
 
-/* 
-Add the footer paragraph according to the design. 
-Configure the anchor tag to open the link in a new tab.
-Forgotten how to do it? Google it! 
+.footer {
+    margin: 50px auto 0 auto;
+    width: 400px;
+    font-size: 14px;
+}
 
-Link: 
+.footer a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/*
+Add the footer paragraph according to the design.
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it!
+
+Link:
 https://scrimba.com/learn/htmlandcss
 
 Text:
-Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+Want to create your own Birthday GIFt site? Take this aHTML & CSS course.
 */

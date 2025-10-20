@@ -5,6 +5,17 @@ The font is called "Happy Monkey" and can be
 embedded via Google Fonts.
 
 Don't know how to make an image round? Google it!
-Also, consider how you should select the image 
+Also, consider how you should select the image
 (class vs id vs element selector).
 */
+body {
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #fff0e5;
+}
+
+.nick {
+    border-radius: 9999px;
+}

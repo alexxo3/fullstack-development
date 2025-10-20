@@ -7,8 +7,8 @@ body {
 
 /*
 Challenge:
-Add a thin blurred border around the <h1>, <h2>, 
-and <h4> using the text-shadow technique you 
+Add a thin blurred border around the <h1>, <h2>,
+and <h4> using the text-shadow technique you
 learned in the Space Exploration section. Set
 the blur to 1px and the color to black.
 */
@@ -17,4 +17,7 @@ the blur to 1px and the color to black.
     width: 150px;
     border-radius: 50%;
     border: 6px solid #EFB0C9;
+}
+h1, h2, h4 {
+    text-shadow: 0 0 1px black;
 }

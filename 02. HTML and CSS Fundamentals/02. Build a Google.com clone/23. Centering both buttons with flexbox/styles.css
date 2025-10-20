@@ -5,7 +5,7 @@ Give the div a "btn-wrapper" class.
 */
 
 .main {
-    margin-top: 100px;    
+    margin-top: 100px;
 }
 
 .logo-img {
@@ -43,4 +43,11 @@ Give the div a "btn-wrapper" class.
     padding-right: 16px;
     border-radius: 4px;
     font-size: 14px;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
 }

@@ -47,3 +47,19 @@ Challenge:
 PS: the image should be 400px wide.
 */
 
+.gift-section {
+    margin-top: 20px;
+}
+.gift-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.gift-hint {
+    font-size: 16px;
+    margin: 5px 0 15px 0;
+}
+
+.gift-img {
+    width: 400px;
+}
