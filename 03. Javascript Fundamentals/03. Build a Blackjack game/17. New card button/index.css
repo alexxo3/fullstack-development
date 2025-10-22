@@ -27,3 +27,7 @@ button {
     border: none;
     border-radius: 2px;
 }
+
+button + button {
+    margin-top: 10px;
+}

@@ -18,6 +18,11 @@ const tabs = [
 tabBtn.addEventListener("click", function(){
     // Save the url instead of logging it out
     console.log(tabs[0].url)
+    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+        myLeads.push(tabs[0].url)
+        localStorage.setItem("myLeads", JSON.stringify(myLeads))
+        render(myLeads)
+    })
 })
 
 function render(leads) {

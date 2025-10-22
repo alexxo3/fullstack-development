@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Basketball Scoreboard</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="home">
+            <h1 class="home-title">Home</h1>
+            <div class="home-score">
+                <h2 class="home-score-number" id="home-score-number">0</h2>
+            </div>
+            <div class="home-buttons">
+                <button class="home-button" id="home-button-1" onclick="updateScore('home', 1)" onmouseover="highlightLeader()">+1</button>
+                <button class="home-button" id="home-button-2" onclick="updateScore('home', 2)" onmouseover="highlightLeader()">+2</button>
+                <button class="home-button" id="home-button-3" onclick="updateScore('home', 3)" onmouseover="highlightLeader()">+3</button>
+            </div>
+        </div>
+        <div class="guest">
+            <h1 class="guest-title">Guest</h1>
+            <div class="guest-score">
+                <h2 class="guest-score-number" id="guest-score-number">0</h2>
+            </div>
+            <div class="guest-buttons">
+                <button class="guest-button" id="guest-button-1" onclick="updateScore('guest', 1)" onmouseover="highlightLeader()">+1</button>
+                <button class="guest-button" id="guest-button-2" onclick="updateScore('guest', 2)" onmouseover="highlightLeader()">+2</button>
+                <button class="guest-button" id="guest-button-3" onclick="updateScore('guest', 3)" onmouseover="highlightLeader()">+3</button>
+            </div>
+        </div>
+    </div>
+    <button class="reset-button" onclick="resetScore()">Reset</button>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
